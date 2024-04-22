@@ -7,6 +7,8 @@ returns:
     crecimiento_idh: crecimiento más reciente del índice de desarrollo humana (IDH)
     None: si no se encuentra información sobre el crecimiento del índice de desarrollo humana (IDH)
 '''
+
+
 def obtener_crecimiento_idh(pais):
     # URL de la página web
     url = "https://es.wikipedia.org/wiki/Anexo:Pa%C3%ADses_por_%C3%ADndice_de_desarrollo_humano"
@@ -25,6 +27,7 @@ def obtener_crecimiento_idh(pais):
 
     # Si no se encontró información sobre el país, devolver None
     return None
+
 
 # Pedir al usuario que ingrese el nombre del país
 nombre_pais = input("Ingresa el nombre del país para obtener su crecimiento IDH más reciente: ")
