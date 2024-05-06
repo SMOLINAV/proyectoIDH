@@ -13,9 +13,8 @@ El programa realiza las siguientes funciones:
 
 ## Cómo Utilizar
 
-1. Descarga o clona el repositorio en tu máquina local.
-2. Asegúrate de tener Python instalado en tu sistema.
-3. Instala las dependencias necesarias ejecutando `pip install -r requirements.txt`.
-4. Ejecuta el programa utilizando el comando `python idh.py`.
-5. Sigue las instrucciones en pantalla e ingresa el nombre del país deseado.
-6. El programa mostrará el crecimiento más reciente del IDH del país ingresado, si está disponible.
+1. Abrir el archivo IDH.
+2. Tocar el boton open in colab.
+3. En la pagina de colab, ejecutarlo.
+4. Al ejecutarlo te pide que ingreses el nombre del país que quieres consultar.
+5. Ingresar nombre del país y presionar enter en el teclado, te dirá el crecimiento más reciente del IDH de ese país.
