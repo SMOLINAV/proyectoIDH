@@ -1,15 +1,15 @@
 import pandas as pd
-'''
-esta función obtiene el crecimiento más reciente del índice de desarrollo humana (IDH) de un país en.wikipedia.org
-args:
-    pais: nombre del país
-returns:
-    crecimiento_idh: crecimiento más reciente del índice de desarrollo humana (IDH)
-    None: si no se encuentra información sobre el crecimiento del índice de desarrollo humana (IDH)
-'''
 
 
 def obtener_crecimiento_idh(pais):
+    '''
+    Función para obtener el crecimiento del IDH más reciente de un país en particular
+    args:
+        pais (str): nombre del país
+    returns:
+        str: crecimiento del IDH más reciente del país
+        None: si no se encuentra la información
+    '''
     # URL de la página web
     url = "https://es.wikipedia.org/wiki/Anexo:Pa%C3%ADses_por_%C3%ADndice_de_desarrollo_humano"
 
@@ -31,6 +31,7 @@ def obtener_crecimiento_idh(pais):
 
 # Pedir al usuario que ingrese el nombre del país
 nombre_pais = input("Ingresa el nombre del país para obtener su crecimiento IDH más reciente: ")
+
 
 # Obtener el crecimiento del IDH del país ingresado por el usuario
 crecimiento_idh = obtener_crecimiento_idh(nombre_pais)
